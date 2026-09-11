@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "ncrs.workbench.mask_stand.interaction"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ncrs:workbench/mask_stand/on_interact"
+  }
+}

@@ -1,0 +1,1 @@
+$data modify storage ncrs:utils/color/int_to_hex temp.hex set value "$(hex)$(character)"

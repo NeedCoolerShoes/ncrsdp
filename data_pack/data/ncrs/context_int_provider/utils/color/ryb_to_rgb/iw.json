@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:min",
+  "inputs": [
+    {
+      "type": "minecraft:storage",
+      "storage": "ncrs:utils/color/ryb_to_rgb",
+      "path": "target.r",
+      "fallback": 0
+    },
+    {
+      "type": "minecraft:storage",
+      "storage": "ncrs:utils/color/ryb_to_rgb",
+      "path": "target.y",
+      "fallback": 0
+    },
+    {
+      "type": "minecraft:storage",
+      "storage": "ncrs:utils/color/ryb_to_rgb",
+      "path": "target.b",
+      "fallback": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      "ncrs:utils/color/rgb_to_ryb/rgb_g",
+      "ncrs:utils/color/rgb_to_ryb/min_rg"
+    ]
+  },
+  "right": 2
+}

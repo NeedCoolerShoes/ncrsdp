@@ -1,0 +1,1 @@
+function ncrs:workbench/mask_stand/spawn_check

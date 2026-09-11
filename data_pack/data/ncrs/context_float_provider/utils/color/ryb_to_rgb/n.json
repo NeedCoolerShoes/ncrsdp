@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:max",
+    "inputs": [
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/rgb_r"
+      },
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/rgb_g"
+      },
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/rgb_b"
+      },
+      1
+    ]
+  },
+  "right": {
+    "type": "minecraft:max",
+    "inputs": [
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/ryb_r"
+      },
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/ryb_y"
+      },
+      {
+        "type": "minecraft:from_int",
+        "input": "ncrs:utils/color/ryb_to_rgb/ryb_b"
+      },
+      1
+    ]
+  }
+}

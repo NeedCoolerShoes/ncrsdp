@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:min",
+  "inputs": [
+    "ncrs:utils/color/rgb_to_ryb/rgb_r",
+    "ncrs:utils/color/rgb_to_ryb/rgb_g"
+  ]
+}

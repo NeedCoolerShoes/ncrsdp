@@ -1,0 +1,1 @@
+$execute at @s as @e[type=interaction,tag=ncrs.workbench.mask_stand.interaction,distance=..10] at @s if data entity @s interaction{player: $(uuid)} run function ncrs:workbench/mask_stand/on_interact/interact

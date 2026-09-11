@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:max",
+    "inputs": [
+      "ncrs:utils/color/rgb_to_ryb/ryb_r",
+      "ncrs:utils/color/rgb_to_ryb/ryb_y",
+      "ncrs:utils/color/rgb_to_ryb/ryb_b",
+      1
+    ]
+  },
+  "right": {
+    "type": "minecraft:max",
+    "inputs": [
+      "ncrs:utils/color/rgb_to_ryb/rgb_r",
+      "ncrs:utils/color/rgb_to_ryb/rgb_g",
+      "ncrs:utils/color/rgb_to_ryb/rgb_b",
+      1
+    ]
+  }
+}

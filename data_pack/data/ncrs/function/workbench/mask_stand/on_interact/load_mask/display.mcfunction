@@ -1,0 +1,2 @@
+data modify entity @s item.components."minecraft:custom_model_data".colors set from storage ncrs:workbench/mask_stand temp.colors
+data modify entity @s item.components."minecraft:custom_model_data".flags set value [true]

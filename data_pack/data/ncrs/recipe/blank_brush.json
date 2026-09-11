@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " f ",
+    " s ",
+    " t "
+  ],
+  "key": {
+    "f": "minecraft:feather",
+    "s": "minecraft:string",
+    "t": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "components": {
+      "minecraft:item_model": "ncrs:brush",
+      "minecraft:custom_name": {
+        "translate": "item.ncrs.blank_brush",
+        "fallback": "Clean Paintbrush",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:blank_brush"
+        }
+      },
+      "minecraft:custom_model_data": {
+        "colors": [
+          14395025
+        ]
+      }
+    }
+  }
+}

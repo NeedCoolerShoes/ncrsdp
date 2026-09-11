@@ -1,0 +1,3 @@
+playsound entity.item.pickup block @a[distance=..16]
+
+$loot spawn ~ ~ ~ loot {pools:[{rolls:1,entries:[{type:"minecraft:item",name:"minecraft:recovery_compass",modifier:{type:"minecraft:set_components",components:{"minecraft:item_model":"ncrs:mask","minecraft:custom_name":{translate:"item.ncrs.mask",fallback:"Painted Mask",color:"gold",italic:0},"minecraft:equippable":{slot:"head",swappable:1},"minecraft:custom_data":{ncrs:{id:"ncrs:mask"}},"minecraft:custom_model_data":{colors:$(colors)},"minecraft:lore":[{text:"Use on a mask stand to paint.",color:"gray",italic:0}]}}}]}]}

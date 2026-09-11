@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:storage",
+    "storage": "ncrs:utils/color/rgb_to_ryb",
+    "path": "target.b",
+    "fallback": 0
+  },
+  "right": "ncrs:utils/color/rgb_to_ryb/iw"
+}

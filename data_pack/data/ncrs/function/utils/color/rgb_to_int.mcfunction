@@ -1,0 +1,3 @@
+data modify storage ncrs:utils/color/rgb_to_int output set compute default integer {type:"minecraft:add",inputs:[{type:"minecraft:mul",inputs:[{type:"minecraft:storage",storage:"ncrs:utils/color/rgb_to_int",path:"target.r"},65536]},{type:"minecraft:mul",inputs:[{type:"minecraft:storage",storage:"ncrs:utils/color/rgb_to_int",path:"target.g"},256]},{type:"minecraft:storage",storage:"ncrs:utils/color/rgb_to_int",path:"target.b"}]}
+
+data remove storage ncrs:utils/color/rgb_to_int target

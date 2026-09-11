@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:sub",
+      "left": "ncrs:utils/color/ryb_to_rgb/ryb_b",
+      "right": "ncrs:utils/color/ryb_to_rgb/min_yb"
+    },
+    2
+  ]
+}

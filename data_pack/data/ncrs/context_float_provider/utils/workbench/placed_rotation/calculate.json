@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:number_dispatcher",
+  "cases": [
+    {
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": "ncrs:utils/workbench/placed_rotation/target",
+        "test": {
+          "min": -180,
+          "max": -135
+        }
+      },
+      "value": 0
+    },
+    {
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": "ncrs:utils/workbench/placed_rotation/target",
+        "test": {
+          "min": -135,
+          "max": -45
+        }
+      },
+      "value": 90
+    },
+    {
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": "ncrs:utils/workbench/placed_rotation/target",
+        "test": {
+          "min": -45,
+          "max": 45
+        }
+      },
+      "value": 180
+    },
+    {
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": "ncrs:utils/workbench/placed_rotation/target",
+        "test": {
+          "min": 45,
+          "max": 135
+        }
+      },
+      "value": -90
+    },
+    {
+      "condition": {
+        "type": "minecraft:float_value_check",
+        "value": "ncrs:utils/workbench/placed_rotation/target",
+        "test": {
+          "min": 135,
+          "max": 180
+        }
+      },
+      "value": 0
+    }
+  ],
+  "default": -1
+}

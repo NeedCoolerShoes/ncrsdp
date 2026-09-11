@@ -1,0 +1,22 @@
+{
+  "item.ncrs.mask_stand": "Mask Stand",
+  "item.ncrs.blank_brush": "Clean Paintbrush",
+  "item.ncrs.brush": "Wet Paintbrush",
+  "item.ncrs.mask": "Painted Mask",
+  "item.ncrs.blank_mask.white": "White Blank Mask",
+  "item.ncrs.blank_mask.light_gray": "Light Gray Blank Mask",
+  "item.ncrs.blank_mask.gray": "Gray Blank Mask",
+  "item.ncrs.blank_mask.black": "Black Blank Mask",
+  "item.ncrs.blank_mask.brown": "Brown Blank Mask",
+  "item.ncrs.blank_mask.red": "Red Blank Mask",
+  "item.ncrs.blank_mask.orange": "Orange Blank Mask",
+  "item.ncrs.blank_mask.yellow": "Yellow Blank Mask",
+  "item.ncrs.blank_mask.lime": "Lime Blank Mask",
+  "item.ncrs.blank_mask.green": "Green Blank Mask",
+  "item.ncrs.blank_mask.cyan": "Cyan Blank Mask",
+  "item.ncrs.blank_mask.light_blue": "Light Blue Blank Mask",
+  "item.ncrs.blank_mask.blue": "Blue Blank Mask",
+  "item.ncrs.blank_mask.purple": "Purple Blank Mask",
+  "item.ncrs.blank_mask.magenta": "Magenta Blank Mask",
+  "item.ncrs.blank_mask.pink": "Pink Blank Mask"
+}

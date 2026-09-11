@@ -1,0 +1,1 @@
+$data modify storage ncrs:mix new_color set from storage ncrs:mix registry."$(item)"

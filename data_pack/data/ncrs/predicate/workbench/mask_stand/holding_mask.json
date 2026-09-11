@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "ncrs": {
+                  "id": "ncrs:blank_mask"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "mainhand": {
+            "predicates": {
+              "minecraft:custom_data": {
+                "ncrs": {
+                  "id": "ncrs:mask"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

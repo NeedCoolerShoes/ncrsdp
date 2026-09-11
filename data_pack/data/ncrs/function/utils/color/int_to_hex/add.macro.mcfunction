@@ -1,0 +1,2 @@
+$data modify storage ncrs:utils/color/int_to_hex temp.character set from storage ncrs:utils/color/int_to_hex registry.$(number)
+function ncrs:utils/color/int_to_hex/concat.macro with storage ncrs:utils/color/int_to_hex temp

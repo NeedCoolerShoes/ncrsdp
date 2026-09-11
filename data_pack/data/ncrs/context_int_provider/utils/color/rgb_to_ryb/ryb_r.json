@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:sub",
+  "left": "ncrs:utils/color/rgb_to_ryb/rgb_r",
+  "right": "ncrs:utils/color/rgb_to_ryb/min_rg"
+}

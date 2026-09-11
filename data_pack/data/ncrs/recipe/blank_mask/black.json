@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ncrs:blank_mask",
+  "category": "misc",
+  "pattern": [
+    "sws"
+  ],
+  "key": {
+    "s": "minecraft:string",
+    "w": "minecraft:black_wool"
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "components": {
+      "minecraft:item_model": "ncrs:mask",
+      "minecraft:custom_name": {
+        "translate": "item.ncrs.blank_mask.black",
+        "fallback": "Black Blank Mask",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "swappable": true
+      },
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:blank_mask"
+        }
+      },
+      "minecraft:custom_model_data": {
+        "colors": [
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825,
+          1644825
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": "Use on a mask stand to paint.",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

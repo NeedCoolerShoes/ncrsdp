@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": [
+          "ncrs:blank_mask/white",
+          "ncrs:blank_mask/light_gray",
+          "ncrs:blank_mask/gray",
+          "ncrs:blank_mask/black",
+          "ncrs:blank_mask/brown",
+          "ncrs:blank_mask/red",
+          "ncrs:blank_mask/orange",
+          "ncrs:blank_mask/yellow",
+          "ncrs:blank_mask/lime",
+          "ncrs:blank_mask/green",
+          "ncrs:blank_mask/cyan",
+          "ncrs:blank_mask/light_blue",
+          "ncrs:blank_mask/blue",
+          "ncrs:blank_mask/purple",
+          "ncrs:blank_mask/magenta",
+          "ncrs:blank_mask/pink"
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "ncrs:blank_mask/white",
+      "ncrs:blank_mask/light_gray",
+      "ncrs:blank_mask/gray",
+      "ncrs:blank_mask/black",
+      "ncrs:blank_mask/brown",
+      "ncrs:blank_mask/red",
+      "ncrs:blank_mask/orange",
+      "ncrs:blank_mask/yellow",
+      "ncrs:blank_mask/lime",
+      "ncrs:blank_mask/green",
+      "ncrs:blank_mask/cyan",
+      "ncrs:blank_mask/light_blue",
+      "ncrs:blank_mask/blue",
+      "ncrs:blank_mask/purple",
+      "ncrs:blank_mask/magenta",
+      "ncrs:blank_mask/pink"
+    ]
+  }
+}

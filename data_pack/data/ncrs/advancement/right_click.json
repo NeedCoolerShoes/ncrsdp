@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{UUID: [I; -152500888, -425833162, -2050518905, -409301463]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ncrs:mix/init"
+  }
+}

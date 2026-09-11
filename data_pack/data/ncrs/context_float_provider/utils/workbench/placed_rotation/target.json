@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:storage",
+  "storage": "ncrs:utils/workbench/placed_rotation",
+  "path": "target",
+  "fallback": 0
+}
