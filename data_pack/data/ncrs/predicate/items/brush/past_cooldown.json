@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:int_value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$time"
+        },
+        "score": "ncrs.items.brush.cooldown",
+        "fallback": 0
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "ncrs.items.brush.cooldown",
+              "fallback": 0
+            },
+            "ncrs:items/brush/cooldown"
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:int_value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$time"
+        },
+        "score": "ncrs.items.brush.cooldown",
+        "fallback": 0
+      },
+      "test": {
+        "max": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "ncrs.items.brush.cooldown",
+          "fallback": 0
+        }
+      }
+    }
+  ]
+}

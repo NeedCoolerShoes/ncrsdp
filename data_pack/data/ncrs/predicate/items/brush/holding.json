@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "ncrs:items/brush/holding_blank",
+    "ncrs:items/brush/holding_wet"
+  ]
+}

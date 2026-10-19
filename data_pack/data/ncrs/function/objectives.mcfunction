@@ -1,0 +1,1 @@
+scoreboard objectives add ncrs.items.brush.cooldown dummy

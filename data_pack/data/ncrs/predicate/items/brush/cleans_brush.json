@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#ncrs:cleans_brush"
+        }
+      }
+    },
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "#ncrs:cleans_brush"
+        }
+      }
+    }
+  ]
+}

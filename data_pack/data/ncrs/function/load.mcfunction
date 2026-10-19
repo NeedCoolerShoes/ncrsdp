@@ -1,3 +1,5 @@
+function ncrs:objectives
+
 function ncrs:utils/_load
 function ncrs:mix/_load
 function ncrs:workbench/mask_stand/_load

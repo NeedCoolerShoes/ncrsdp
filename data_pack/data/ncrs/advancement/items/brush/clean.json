@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "ncrs": {
+                      "id": "ncrs:brush"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "ncrs": {
+                "id": "ncrs:brush"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ncrs:items/brush/clean/init"
+  }
+}
