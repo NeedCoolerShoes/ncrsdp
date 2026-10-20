@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:float_value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "ncrs:workbench/mask_stand",
+    "path": "paint.raycast.position.x",
+    "fallback": 0
+  },
+  "test": {
+    "max": {
+      "type": "minecraft:add",
+      "inputs": [
+        {
+          "type": "minecraft:from_int",
+          "input": {
+            "type": "minecraft:storage",
+            "storage": "ncrs:workbench/mask_stand",
+            "path": "paint.position.x",
+            "fallback": 0
+          }
+        },
+        {
+          "type": "minecraft:constant",
+          "value": 0.125
+        }
+      ]
+    }
+  }
+}

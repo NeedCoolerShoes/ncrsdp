@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:float_value_check",
+      "value": {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.raycast.position.z",
+        "fallback": 0
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:from_int",
+              "input": {
+                "type": "minecraft:storage",
+                "storage": "ncrs:workbench/mask_stand",
+                "path": "paint.position.z",
+                "fallback": 0
+              }
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 0.0625
+            }
+          ]
+        },
+        "max": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:from_int",
+              "input": {
+                "type": "minecraft:storage",
+                "storage": "ncrs:workbench/mask_stand",
+                "path": "paint.position.z",
+                "fallback": 0
+              }
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 0.9375
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:float_value_check",
+      "value": {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.raycast.position.y",
+        "fallback": 0
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:from_int",
+              "input": {
+                "type": "minecraft:storage",
+                "storage": "ncrs:workbench/mask_stand",
+                "path": "paint.position.y",
+                "fallback": 0
+              }
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -0.9375
+            }
+          ]
+        },
+        "max": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:from_int",
+              "input": {
+                "type": "minecraft:storage",
+                "storage": "ncrs:workbench/mask_stand",
+                "path": "paint.position.y",
+                "fallback": 0
+              }
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -0.0625
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:float_value_check",
+      "value": {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.raycast.position.x",
+        "fallback": 0
+      },
+      "test": {
+        "min": {
+          "type": "minecraft:add",
+          "inputs": [
+            {
+              "type": "minecraft:from_int",
+              "input": {
+                "type": "minecraft:storage",
+                "storage": "ncrs:workbench/mask_stand",
+                "path": "paint.position.x",
+                "fallback": 0
+              }
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 0.125
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

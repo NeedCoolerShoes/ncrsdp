@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.position.x"
+      },
+      {
+        "type": "minecraft:add",
+        "inputs": [
+          "ncrs:workbench/mask_stand/width",
+          "ncrs:workbench/mask_stand/padding_x"
+        ]
+      }
+    ]
+  },
+  "right": {
+    "type": "minecraft:storage",
+    "storage": "ncrs:workbench/mask_stand",
+    "path": "paint.raycast.position.x"
+  }
+}
