@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:floor",
+  "input": {
+    "type": "minecraft:mul",
+    "inputs": [
+      {
+        "type": "minecraft:max",
+        "inputs": [
+          0,
+          {
+            "type": "minecraft:min",
+            "inputs": [
+              {
+                "type": "minecraft:div",
+                "left": "ncrs:workbench/mask_stand/raycast/dist_y",
+                "right": "ncrs:workbench/mask_stand/height"
+              },
+              0.999999
+            ]
+          }
+        ]
+      },
+      "ncrs:workbench/mask_stand/segments_y"
+    ]
+  }
+}
