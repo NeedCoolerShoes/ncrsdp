@@ -8,13 +8,8 @@
         "storage": "ncrs:workbench/mask_stand",
         "path": "paint.position.z"
       },
-      {
-        "type": "minecraft:add",
-        "inputs": [
-          "ncrs:workbench/mask_stand/width",
-          "ncrs:workbench/mask_stand/padding_x"
-        ]
-      }
+      "ncrs:workbench/mask_stand/width",
+      "ncrs:workbench/mask_stand/padding_x"
     ]
   },
   "right": {

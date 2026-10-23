@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand {type:"minecraft:sequence",functions:[{type:"minecraft:set_custom_model_data",colors:{values:[0],mode:"replace_all"}},{type:"minecraft:set_custom_data",tag:{ncrs:{id:"ncrs:brush"}}}]}

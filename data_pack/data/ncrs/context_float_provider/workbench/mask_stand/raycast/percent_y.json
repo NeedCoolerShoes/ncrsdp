@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:div",
+  "left": "ncrs:workbench/mask_stand/raycast/dist_y",
+  "right": "ncrs:workbench/mask_stand/height"
+}

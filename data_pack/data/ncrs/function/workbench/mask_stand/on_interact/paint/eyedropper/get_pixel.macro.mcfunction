@@ -1,0 +1,1 @@
+$data modify storage ncrs:workbench/mask_stand paint.eyedropper.color set from entity @s item.components."minecraft:custom_model_data".colors[$(index)]

@@ -4,22 +4,24 @@
       "type": "minecraft:add",
       "inputs": [
         {
-          "type": "minecraft:storage",
-          "storage": "ncrs:workbench/mask_stand",
-          "path": "paint.position.y"
+          "type": "minecraft:sub",
+          "left": {
+            "type": "minecraft:storage",
+            "storage": "ncrs:workbench/mask_stand",
+            "path": "paint.position.y"
+          },
+          "right": 1
         },
-        {
-          "type": "minecraft:add",
-          "inputs": [
-            "ncrs:workbench/mask_stand/height",
-            "ncrs:workbench/mask_stand/padding_y"
-          ]
-        }
+        "ncrs:workbench/mask_stand/height"
       ]
     },
     "right": {
-      "type": "minecraft:storage",
-      "storage": "ncrs:workbench/mask_stand",
-      "path": "paint.raycast.position.y"
+      "type": "minecraft:sub",
+      "left": {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.raycast.position.y"
+      },
+      "right": "ncrs:workbench/mask_stand/padding_y"
     }
   }

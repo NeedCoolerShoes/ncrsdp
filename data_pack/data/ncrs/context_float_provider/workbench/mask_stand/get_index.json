@@ -1,21 +1,25 @@
 {
-  "type": "minecraft:add",
-  "inputs": [
-    {
-      "type": "minecraft:mul",
-      "inputs": [
-        {
-          "type": "minecraft:storage",
-          "storage": "ncrs:workbench/mask_stand",
-          "path": "paint.raycast.output.y"
-        },
-        "ncrs:workbench/mask_stand/segments_y"
-      ]
-    },
-    {
-      "type": "minecraft:storage",
-      "storage": "ncrs:workbench/mask_stand",
-      "path": "paint.raycast.output.x"
-    }
-  ]
+  "type": "minecraft:sub",
+  "left": 63,
+  "right": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mul",
+        "inputs": [
+          {
+            "type": "minecraft:storage",
+            "storage": "ncrs:workbench/mask_stand",
+            "path": "paint.raycast.output.y"
+          },
+          "ncrs:workbench/mask_stand/segments_y"
+        ]
+      },
+      {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/mask_stand",
+        "path": "paint.raycast.output.x"
+      }
+    ]
+  }
 }

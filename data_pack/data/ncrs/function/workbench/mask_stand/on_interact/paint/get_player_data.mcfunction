@@ -1,0 +1,1 @@
+data modify storage ncrs:workbench/mask_stand paint.color set from entity @s SelectedItem.components."minecraft:custom_model_data".colors[0]
