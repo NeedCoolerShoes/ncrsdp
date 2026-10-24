@@ -6,7 +6,7 @@
         {
           "type": "item",
           "weight": 1,
-          "name": "minecraft:endermite_spawn_egg",
+          "name": "minecraft:player_head",
           "modifier": [
             {
               "type": "set_count",
@@ -15,21 +15,24 @@
             {
               "type": "set_components",
               "components": {
-                "minecraft:entity_data": {
-                  "id": "minecraft:marker",
-                  "Tags": [
-                    "ncrs.workbench.mask_stand.spawn"
-                  ]
-                },
                 "minecraft:item_model": "ncrs:workbench/mask_stand",
                 "minecraft:custom_data": {
                   "ncrs": {
-                    "id": "ncrs:mask_stand_spawn_egg"
+                    "id": "ncrs:mask_stand",
+                    "block": {
+                      "id": "ncrs:mask_stand"
+                    }
                   }
                 },
                 "item_name": {
                   "translate": "item.ncrs.mask_stand",
                   "fallback": "Mask Stand"
+                },
+                "profile": {
+                  "texture": "ncrs:entity/player/wide/blank"
+                },
+                "equippable": {
+                  "slot": "body"
                 }
               }
             }

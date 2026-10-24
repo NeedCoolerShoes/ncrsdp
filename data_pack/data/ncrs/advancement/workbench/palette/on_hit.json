@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "any_of": [
+                "ncrs.workbench.palette.interaction"
+              ]
+            },
+            "minecraft:entity_type": "minecraft:interaction"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ncrs:workbench/palette/on_hit"
+  }
+}

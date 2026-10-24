@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:workbench/palette",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:palette",
+                    "block": {
+                      "id": "ncrs:palette"
+                    }
+                  }
+                },
+                "item_name": {
+                  "translate": "item.ncrs.palette",
+                  "fallback": "Palette"
+                },
+                "profile": {
+                  "texture": "ncrs:entity/player/wide/blank"
+                },
+                "equippable": {
+                  "slot": "body"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
