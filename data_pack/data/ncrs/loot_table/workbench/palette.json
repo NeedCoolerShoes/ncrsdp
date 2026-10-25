@@ -35,6 +35,13 @@
                   "slot": "body"
                 }
               }
+            },
+            {
+              "type": "minecraft:copy_components",
+              "source": "this",
+              "include": [
+                "minecraft:custom_model_data"
+              ]
             }
           ]
         }

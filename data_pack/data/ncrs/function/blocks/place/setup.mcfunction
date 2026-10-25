@@ -4,4 +4,3 @@ execute if data storage ncrs:blocks place{id: "ncrs:palette"} run function ncrs:
 execute if data storage ncrs:blocks place{id: "ncrs:mask_stand"} run function ncrs:workbench/mask_stand/setup
 
 setblock ~ ~ ~ air
-say setup

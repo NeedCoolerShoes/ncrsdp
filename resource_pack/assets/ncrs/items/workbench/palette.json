@@ -1,6 +1,184 @@
 {
   "model": {
-    "type": "model",
-    "model": "ncrs:item/workbench/palette"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/workbench/palette_pigment",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 0,
+              "default": 0
+            }
+          ],
+          "transformation": {
+            "translation": [
+              0.5,
+              0.0626,
+              0.5625
+            ],
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/workbench/palette_pigment",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 1,
+              "default": 0
+            }
+          ],
+          "transformation": {
+            "translation": [
+              0.125,
+              0.0626,
+              0.5625
+            ],
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/workbench/palette_pigment",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 2,
+              "default": 0
+            }
+          ],
+          "transformation": {
+            "translation": [
+              0.5,
+              0.0626,
+              0.3125
+            ],
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "ncrs:item/workbench/palette_pigment",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 3,
+              "default": 0
+            }
+          ],
+          "transformation": {
+            "translation": [
+              0.125,
+              0.0626,
+              0.3125
+            ],
+            "left_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        "on_false": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "ncrs:item/workbench/palette",
+        "tints": []
+      }
+    ]
   }
 }

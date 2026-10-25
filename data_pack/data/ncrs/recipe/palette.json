@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "pps",
+    "pp ",
+    "   "
+  ],
+  "key": {
+    "p": "#minecraft:planks",
+    "s": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_model": "ncrs:workbench/palette",
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:palette",
+          "block": {
+            "id": "ncrs:palette"
+          }
+        }
+      },
+      "item_name": {
+        "translate": "item.ncrs.palette",
+        "fallback": "Palette"
+      },
+      "profile": {
+        "texture": "ncrs:entity/player/wide/blank"
+      },
+      "equippable": {
+        "slot": "body"
+      },
+      "custom_model_data": {
+        "flags": [false, false, false, false],
+        "colors": [0, 0, 0, 0]
+      }
+    }
+  }
+}
