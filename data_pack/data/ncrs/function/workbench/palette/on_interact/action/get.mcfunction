@@ -1,4 +1,5 @@
 execute if predicate ncrs:workbench/palette/action/clear_color run return run data modify storage ncrs:workbench/palette action set value "clear"
+execute if predicate ncrs:workbench/palette/action/pigment run return run data modify storage ncrs:workbench/palette action set value "pigment"
 execute if predicate ncrs:workbench/palette/action/mix_color run return run data modify storage ncrs:workbench/palette action set value "mix"
 execute if predicate ncrs:workbench/palette/action/set_color run return run data modify storage ncrs:workbench/palette action set value "set"
 execute if predicate ncrs:workbench/palette/action/set_brush run return run data modify storage ncrs:workbench/palette action set value "set_brush"

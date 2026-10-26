@@ -1,0 +1,8 @@
+{
+	"parent":"minecraft:item/generated",
+	"textures": {
+		"layer0": "ncrs:item/pigment_bg",
+		"layer1": "ncrs:item/pigment",
+		"layer2": "ncrs:item/pigment_fg"
+	}
+}

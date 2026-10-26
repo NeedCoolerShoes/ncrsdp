@@ -31,6 +31,11 @@
                   "consume_seconds": 3.4e+38,
                   "has_consume_particles": false
                 },
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 1,
+                  "interact_vibrations": false
+                },
                 "minecraft:max_stack_size": 1
               }
             }
