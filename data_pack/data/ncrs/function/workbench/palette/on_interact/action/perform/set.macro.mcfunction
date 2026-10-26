@@ -1,0 +1,2 @@
+$data modify entity @s item.components."minecraft:custom_model_data".flags[$(index)] set value true
+$data modify entity @s item.components."minecraft:custom_model_data".colors[$(index)] set from storage ncrs:workbench/palette color

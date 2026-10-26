@@ -1,0 +1,1 @@
+$execute at @s as @e[type=interaction,tag=ncrs.workbench.palette.interaction,distance=..10] at @s if data entity @s interaction{player: $(uuid)} run function ncrs:workbench/palette/on_interact/interact

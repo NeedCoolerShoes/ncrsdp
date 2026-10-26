@@ -1,0 +1,1 @@
+execute on passengers as @s[tag=ncrs.workbench.palette.display] run function ncrs:workbench/palette/on_interact/action/perform/clear.macro with storage ncrs:workbench/palette

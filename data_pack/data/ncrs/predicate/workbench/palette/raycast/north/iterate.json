@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:float_value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "ncrs:workbench/palette",
+    "path": "raycast.position.y",
+    "fallback": 0
+  },
+  "test": {
+    "min": {
+      "type": "minecraft:add",
+      "inputs": [
+        {
+          "type": "minecraft:from_int",
+          "input": {
+            "type": "minecraft:storage",
+            "storage": "ncrs:workbench/palette",
+            "path": "position.y",
+            "fallback": 0
+          }
+        },
+        {
+          "type": "minecraft:constant",
+          "value": 0.0625
+        }
+      ]
+    }
+  }
+}

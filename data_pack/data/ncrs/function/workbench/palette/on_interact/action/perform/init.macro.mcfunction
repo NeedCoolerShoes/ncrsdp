@@ -1,0 +1,1 @@
+$function ncrs:workbench/palette/on_interact/action/perform/$(action)

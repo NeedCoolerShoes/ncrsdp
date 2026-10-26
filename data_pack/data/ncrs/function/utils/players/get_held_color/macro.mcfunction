@@ -1,0 +1,1 @@
+$data modify storage ncrs:utils/players/get_held_color output set from storage ncrs:utils/players/get_held_color registry.$(id)

@@ -1,0 +1,1 @@
+execute on target run title @s actionbar {text: "Interact with a brush or water bottle.", color: "gold"}

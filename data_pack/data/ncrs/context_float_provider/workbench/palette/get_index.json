@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:sub",
+  "left": 3,
+  "right": {
+    "type": "minecraft:add",
+    "inputs": [
+      {
+        "type": "minecraft:mul",
+        "inputs": [
+          {
+            "type": "minecraft:storage",
+            "storage": "ncrs:workbench/palette",
+            "path": "raycast.output.y"
+          },
+          "ncrs:workbench/palette/segments_y"
+        ]
+      },
+      {
+        "type": "minecraft:storage",
+        "storage": "ncrs:workbench/palette",
+        "path": "raycast.output.x"
+      }
+    ]
+  }
+}

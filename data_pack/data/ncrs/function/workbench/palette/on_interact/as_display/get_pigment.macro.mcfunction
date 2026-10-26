@@ -1,0 +1,2 @@
+$data modify storage ncrs:workbench/palette pigment.enabled set from entity @s item.components.minecraft:custom_model_data.flags[$(index)]
+$data modify storage ncrs:workbench/palette pigment.color set from entity @s item.components.minecraft:custom_model_data.colors[$(index)]
