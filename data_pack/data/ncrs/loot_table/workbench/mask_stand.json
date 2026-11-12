@@ -31,9 +31,7 @@
                 "profile": {
                   "texture": "ncrs:entity/player/wide/blank"
                 },
-                "equippable": {
-                  "slot": "body"
-                }
+                "!equippable": {}
               }
             }
           ]
