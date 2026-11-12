@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:workbench/cosmetics_bench",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "id": "ncrs:cosmetics_bench",
+                    "block": {
+                      "id": "ncrs:cosmetics_bench"
+                    }
+                  }
+                },
+                "item_name": {
+                  "translate": "item.ncrs.cosmetics_bench",
+                  "fallback": "Cosmetics Bench"
+                },
+                "profile": {
+                  "texture": "ncrs:entity/player/wide/blank"
+                },
+                "!equippable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

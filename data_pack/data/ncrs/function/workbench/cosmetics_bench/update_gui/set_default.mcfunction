@@ -1,0 +1,1 @@
+function ncrs:workbench/cosmetics_bench/update_gui/macro {slot1: "cosmetic", slot2: "empty"}

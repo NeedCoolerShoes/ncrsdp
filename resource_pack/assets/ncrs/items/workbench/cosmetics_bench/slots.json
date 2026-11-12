@@ -1,0 +1,112 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "empty",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/empty"
+            }
+          },
+          {
+            "when": "cosmetic",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/cosmetic"
+            }
+          },
+          {
+            "when": "head",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/helmet"
+            }
+          }
+        ],
+        "transformation": {
+          "translation": [
+            -3.375,
+            0,
+            0
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "cases": [
+          {
+            "when": "empty",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/empty"
+            }
+          },
+          {
+            "when": "cosmetic",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/cosmetic"
+            }
+          },
+          {
+            "when": "head",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/helmet"
+            }
+          }
+        ],
+        "transformation": {
+          "translation": [
+            -1.125,
+            0,
+            0
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    ]
+  },
+  "oversized_in_gui": true
+}

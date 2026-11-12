@@ -1,0 +1,1 @@
+$item replace block ~ ~ ~ container.3 with recovery_compass[item_model="ncrs:workbench/cosmetics_bench/slots",minecraft:custom_model_data={strings: ["$(slot1)", "$(slot2)"]},minecraft:custom_data={ncrs: {gui: {id: "ncrs:workbench/cosmetics_bench"}}},item_name="",!lore]

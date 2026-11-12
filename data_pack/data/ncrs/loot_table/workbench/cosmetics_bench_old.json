@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": [
+                  "",
+                  {
+                    "text": "\ue000\ue001\ue002\ue101\ue003",
+                    "font": "ncrs:cosmetics_bench",
+                    "color": "white"
+                  },
+                  " ",
+                  {
+                    "text": "Cosmetics Bench",
+                    "color": "#404040"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

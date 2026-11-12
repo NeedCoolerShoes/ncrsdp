@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ccc",
+    " c ",
+    "iii"
+  ],
+  "key": {
+    "c": "minecraft:iron_chain",
+    "i": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_model": "ncrs:workbench/mask_stand",
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:mask_stand",
+          "block": {
+            "id": "ncrs:mask_stand"
+          }
+        }
+      },
+      "item_name": {
+        "translate": "item.ncrs.mask_stand",
+        "fallback": "Mask Stand"
+      },
+      "profile": {
+        "texture": "ncrs:entity/player/wide/blank"
+      },
+      "equippable": {
+        "slot": "body"
+      }
+    }
+  }
+}

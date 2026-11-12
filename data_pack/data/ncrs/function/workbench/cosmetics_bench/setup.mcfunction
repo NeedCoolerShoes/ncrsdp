@@ -1,0 +1,4 @@
+setblock ~ ~ ~ hopper
+data modify block ~ ~ ~ CustomName set value [{font: "ncrs:workbench/cosmetics_bench", text: "\ue000\ue001\ue002",color: "white"}, {font: "minecraft:default", text: "Cosmetics Bench", color: "#404040"}]
+
+summon item_display ~ ~1 ~ {Tags: ["ncrs.workbench.cosmetics_bench", "ncrs.workbench.cosmetics_bench.display"], item: {id: "recovery_compass", components: {item_model: "ncrs:workbench/cosmetics_bench"}}, transformation: {left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-0.5f,0f],scale:[1.01f,1.01f,1.01f]}}
