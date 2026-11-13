@@ -27,6 +27,97 @@
               "type": "minecraft:model",
               "model": "ncrs:item/workbench/cosmetics_bench/slots/helmet"
             }
+          },
+          {
+            "when": "chest",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/chestplate"
+            }
+          },
+          {
+            "when": "legs",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/leggings"
+            }
+          },
+          {
+            "when": "feet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/boots"
+            }
+          },
+          {
+            "when": "axe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/axe"
+            }
+          },
+          {
+            "when": "elytra",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/elytra"
+            }
+          },
+          {
+            "when": "fishing_rod",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/fishing_rod"
+            }
+          },
+          {
+            "when": "mace",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/mace"
+            }
+          },
+          {
+            "when": "pickaxe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/pickaxe"
+            }
+          },
+          {
+            "when": "shield",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/shield"
+            }
+          },
+          {
+            "when": "shovel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/shovel"
+            }
+          },
+          {
+            "when": "spear",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/spear"
+            }
+          },
+          {
+            "when": "sword",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/sword"
+            }
+          },
+          {
+            "when": "trident",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/trident"
+            }
           }
         ],
         "transformation": {
@@ -78,6 +169,97 @@
             "model": {
               "type": "minecraft:model",
               "model": "ncrs:item/workbench/cosmetics_bench/slots/helmet"
+            }
+          },
+          {
+            "when": "chest",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/chestplate"
+            }
+          },
+          {
+            "when": "legs",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/leggings"
+            }
+          },
+          {
+            "when": "feet",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/boots"
+            }
+          },
+          {
+            "when": "axe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/axe"
+            }
+          },
+          {
+            "when": "elytra",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/elytra"
+            }
+          },
+          {
+            "when": "fishing_rod",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/fishing_rod"
+            }
+          },
+          {
+            "when": "mace",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/mace"
+            }
+          },
+          {
+            "when": "pickaxe",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/pickaxe"
+            }
+          },
+          {
+            "when": "shield",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/shield"
+            }
+          },
+          {
+            "when": "shovel",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/shovel"
+            }
+          },
+          {
+            "when": "spear",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/spear"
+            }
+          },
+          {
+            "when": "sword",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/sword"
+            }
+          },
+          {
+            "when": "trident",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/workbench/cosmetics_bench/slots/trident"
             }
           }
         ],

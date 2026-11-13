@@ -1,7 +1,7 @@
 data modify storage ncrs:workbench/cosmetics_bench block.returns set value []
 
 # Empty slot
-execute if items block ~ ~ ~ container.1 * run function ncrs:workbench/cosmetics_bench/validate_slots/slot_1
+function ncrs:workbench/cosmetics_bench/validate_slots/slot_1
 
 # Display slot
 function ncrs:workbench/cosmetics_bench/validate_slots/slot_3

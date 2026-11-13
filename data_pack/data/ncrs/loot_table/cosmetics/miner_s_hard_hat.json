@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:cosmetics/miner_s_hard_hat",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "cosmetic": {
+                      "type": "model",
+                      "supports": "head",
+                      "model": {
+                        "id": "ncrs:cosmetics/miner_s_hard_hat"
+                      }
+                    }
+                  }
+                },
+                "minecraft:item_name": {
+                  "text": "Miner's Hard Hat",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
