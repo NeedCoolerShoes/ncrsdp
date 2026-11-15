@@ -7,3 +7,5 @@ execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: 
 execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: "chest"} run return run function ncrs:workbench/cosmetics_bench/validate_slots/check_type/chest
 execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: "legs"} run return run function ncrs:workbench/cosmetics_bench/validate_slots/check_type/legs
 execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: "feet"} run return run function ncrs:workbench/cosmetics_bench/validate_slots/check_type/feet
+
+execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: "armor"} run return run function ncrs:workbench/cosmetics_bench/validate_slots/check_type/armor
