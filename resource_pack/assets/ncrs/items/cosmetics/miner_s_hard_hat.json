@@ -8,7 +8,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "ncrs:item/api/cosmetic/epic"
+        "model": "ncrs:item/api/cosmetic/common"
       }
     ]
   }

@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "ncrs:item/api/cosmetic/base",
+	"textures": {
+		"0": "ncrs:item/api/cosmetic/mythic",
+		"particle": "ncrs:item/api/cosmetic/mythic"
+	}
+}
