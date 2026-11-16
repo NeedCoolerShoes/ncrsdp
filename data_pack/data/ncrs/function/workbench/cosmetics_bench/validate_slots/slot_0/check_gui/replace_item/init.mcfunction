@@ -1,5 +1,4 @@
 execute unless items entity @s ncrs:workbench/cosmetics_bench/cosmetic * run return fail
-say check
 
 data remove storage ncrs:workbench/cosmetics_bench validate
 
