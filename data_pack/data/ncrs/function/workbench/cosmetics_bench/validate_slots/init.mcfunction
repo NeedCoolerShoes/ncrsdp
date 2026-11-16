@@ -7,12 +7,12 @@ function ncrs:workbench/cosmetics_bench/validate_slots/slot_1
 function ncrs:workbench/cosmetics_bench/validate_slots/slot_3
 
 # Cosmetic slot
-execute if items block ~ ~ ~ container.0 * run function ncrs:workbench/cosmetics_bench/validate_slots/slot_0
+function ncrs:workbench/cosmetics_bench/validate_slots/slot_0/init
 
 # Item slot
-execute if items block ~ ~ ~ container.2 * run function ncrs:workbench/cosmetics_bench/validate_slots/slot_2
+function ncrs:workbench/cosmetics_bench/validate_slots/slot_2/init
 
 # Result slot
-function ncrs:workbench/cosmetics_bench/validate_slots/slot_4
+function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/init
 
 execute if data storage ncrs:workbench/cosmetics_bench block.returns[] run function ncrs:workbench/cosmetics_bench/validate_slots/return

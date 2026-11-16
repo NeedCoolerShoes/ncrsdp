@@ -1,0 +1,1 @@
+$data modify storage ncrs:workbench/cosmetics_bench block.icon.slot2 set from storage ncrs:workbench/cosmetics_bench block.cosmetic.supports[$(index)]

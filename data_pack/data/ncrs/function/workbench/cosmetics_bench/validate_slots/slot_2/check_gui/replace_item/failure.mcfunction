@@ -1,0 +1,1 @@
+item replace entity @s ncrs:workbench/cosmetics_bench/single_item with air

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:mod",
+    "left": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "$world_time"
+      },
+      "score": "ncrs.global"
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "inputs": [
+        {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "$slots"
+          },
+          "score": "ncrs.workbench.cosmetics_bench"
+        },
+        "ncrs:workbench/cosmetics_bench/rotate_icon"
+      ]
+    }
+  },
+  "right": "ncrs:workbench/cosmetics_bench/rotate_icon"
+}

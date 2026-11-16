@@ -1,1 +1,0 @@
-data modify storage ncrs:workbench/cosmetics_bench block.cosmetic set from block ~ ~ ~ Items[{Slot: 0b}].components."minecraft:custom_data".ncrs.cosmetic

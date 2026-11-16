@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:limit_slots",
+  "slot_source": "ncrs:workbench/cosmetics_bench/cosmetic",
+  "limit": 1
+}

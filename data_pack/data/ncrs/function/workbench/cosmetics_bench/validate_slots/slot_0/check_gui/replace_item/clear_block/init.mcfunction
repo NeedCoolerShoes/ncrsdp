@@ -1,0 +1,1 @@
+return run function ncrs:workbench/cosmetics_bench/validate_slots/slot_0/check_gui/replace_item/clear_block/init.macro with storage ncrs:workbench/cosmetics_bench validate.gui.pos

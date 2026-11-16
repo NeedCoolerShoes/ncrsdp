@@ -14,7 +14,7 @@
                 "minecraft:custom_data": {
                   "ncrs": {
                     "cosmetic": {
-                      "supports": ["head"],
+                      "supports": ["head", "chest"],
                       "model": {
                         "id": "ncrs:cosmetics/miner_s_hard_hat"
                       }

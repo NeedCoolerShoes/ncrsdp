@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run return run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/clear_block/modify

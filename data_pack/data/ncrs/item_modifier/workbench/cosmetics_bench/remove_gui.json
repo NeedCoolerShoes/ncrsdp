@@ -7,7 +7,7 @@
   "ops": [
     {
       "source": "validate.custom_data",
-      "target": "ncrs",
+      "target": "{}",
       "op": "replace"
     }
   ]
