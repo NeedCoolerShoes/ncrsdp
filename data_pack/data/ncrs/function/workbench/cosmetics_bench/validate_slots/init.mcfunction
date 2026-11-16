@@ -12,4 +12,7 @@ execute if items block ~ ~ ~ container.0 * run function ncrs:workbench/cosmetics
 # Item slot
 execute if items block ~ ~ ~ container.2 * run function ncrs:workbench/cosmetics_bench/validate_slots/slot_2
 
+# Result slot
+function ncrs:workbench/cosmetics_bench/validate_slots/slot_4
+
 execute if data storage ncrs:workbench/cosmetics_bench block.returns[] run function ncrs:workbench/cosmetics_bench/validate_slots/return

@@ -1,0 +1,1 @@
+$data modify storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable" set from storage ncrs:utils/registries equippable[{id: $(id)}].equippable

@@ -1,0 +1,1 @@
+data modify storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable".slot set from storage ncrs:workbench/cosmetics_bench block.cosmetic.supports[0]

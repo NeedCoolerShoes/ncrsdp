@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "ncrs:cosmetics/meowmeow_appreciation_shirt",
+                "minecraft:custom_data": {
+                  "ncrs": {
+                    "cosmetic": {
+                      "supports": ["chest"],
+                      "model": {
+                        "id": "ncrs:cosmetics/meowmeow_appreciation_shirt"
+                      },
+                      "equipment": {
+                        "id": "ncrs:cosmetics/meowmeow_appreciation_shirt"
+                      }
+                    }
+                  }
+                },
+                "minecraft:item_name": {
+                  "text": "Meow Meow Appreciation Shirt",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
