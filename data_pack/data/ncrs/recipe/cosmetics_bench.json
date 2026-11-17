@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ww ",
+    "pp ",
+    "pp "
+  ],
+  "key": {
+    "w": "#minecraft:wool",
+    "p": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_model": "ncrs:workbench/cosmetics_bench",
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:cosmetics_bench",
+          "block": {
+            "id": "ncrs:cosmetics_bench"
+          }
+        }
+      },
+      "item_name": {
+        "translate": "item.ncrs.cosmetics_bench",
+        "fallback": "Cosmetics Bench"
+      },
+      "profile": {
+        "texture": "ncrs:entity/player/wide/blank"
+      },
+      "!equippable": {}
+    }
+  }
+}

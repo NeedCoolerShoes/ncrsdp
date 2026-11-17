@@ -12,11 +12,14 @@ execute unless data storage ncrs:workbench/cosmetics_bench temp{valid_equipment:
 data modify storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable" set from storage ncrs:workbench/cosmetics_bench block.result.item.components."minecraft:equippable"
 
 # If that doesn't work, find the default one
-execute unless data storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable".asset_id run function ncrs:workbench/cosmetics_bench/create_result/apply_cosmetic/equippable/lookup.macro with storage ncrs:workbench/cosmetics_bench block.result.item
+execute unless data storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable" run function ncrs:workbench/cosmetics_bench/create_result/apply_cosmetic/equippable/lookup.macro with storage ncrs:workbench/cosmetics_bench block.result.item
 
 # If that still doesn't work, instead make it up
-execute unless data storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable".asset_id run function ncrs:workbench/cosmetics_bench/create_result/apply_cosmetic/equippable/default
+execute unless data storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable" run function ncrs:workbench/cosmetics_bench/create_result/apply_cosmetic/equippable/default
 
 # Now apply changes
 data modify storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable".asset_id set from storage ncrs:workbench/cosmetics_bench block.cosmetic.equipment.id
 data modify storage ncrs:workbench/cosmetics_bench block.result.new_components."minecraft:equippable".equip_sound set from storage ncrs:workbench/cosmetics_bench block.cosmetic.equipment.sound
+
+# Remove equippable component from result
+data remove storage ncrs:workbench/cosmetics_bench block.result.item.components."minecraft:equippable"
