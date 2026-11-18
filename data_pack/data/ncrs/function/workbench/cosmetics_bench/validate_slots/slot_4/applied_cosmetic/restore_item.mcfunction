@@ -17,6 +17,9 @@ data modify storage ncrs:workbench/cosmetics_bench block.split.item.components."
 data modify storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:custom_model_data" set from storage ncrs:workbench/cosmetics_bench block.applied_cosmetic.restore.custom_model_data
 data modify storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:equippable" set from storage ncrs:workbench/cosmetics_bench block.applied_cosmetic.restore.equippable
 
+data remove storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:lore"[{font: "ncrs:api/cosmetic"}]
+execute unless data storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:lore"[] run data remove storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:lore"
+
 data remove storage ncrs:workbench/cosmetics_bench block.split.item.components."minecraft:custom_data".ncrs.applied_cosmetic
 
 data modify block ~ ~ ~ Items append from storage ncrs:workbench/cosmetics_bench block.split.item

@@ -15,6 +15,7 @@
                   "ncrs": {
                     "cosmetic": {
                       "supports": ["chest"],
+                      "rarity": "rare",
                       "model": {
                         "id": "ncrs:cosmetics/meowmeow_appreciation_shirt"
                       },
@@ -27,6 +28,9 @@
                 "minecraft:item_name": {
                   "text": "Meow Meow Appreciation Shirt",
                   "italic": false
+                },
+                "minecraft:custom_model_data": {
+                  "strings": ["ncrs:api/cosmetic"]
                 }
               }
             }

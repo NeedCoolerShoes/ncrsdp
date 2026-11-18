@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    "ncrs:workbench/cosmetics_bench/lore/base",
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "",
+          "extra": [
+            {
+              "translate": "item.ncrs.api.cosmetic.prefix",
+              "fallback": "✨",
+              "color": "yellow",
+              "font": "minecraft:default",
+              "italic": false,
+              "extra": [
+                " ",
+                {
+                  "storage": "ncrs:workbench/cosmetics_bench",
+                  "nbt": "block.result.name",
+                  "interpret": true
+                }
+              ]
+            }
+          ],
+          "font": "ncrs:api/cosmetic"
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:set_lore",
+  "lore": [
+    {
+      "text": "",
+      "font": "ncrs:api/cosmetic"
+    },
+    {
+      "text": "",
+      "extra": [
+        {
+          "translate": "item.ncrs.api.cosmetic.applied_cosmetic",
+          "fallback": "Applied Cosmetic:",
+          "color": "gray",
+          "font": "minecraft:default",
+          "italic": false
+        }
+      ],
+      "font": "ncrs:api/cosmetic"
+    }
+  ],
+  "mode": "append"
+}

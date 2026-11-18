@@ -5,6 +5,6 @@ data modify storage ncrs:workbench/cosmetics_bench validate.gui set from entity 
 execute store success storage ncrs:workbench/cosmetics_bench validate.block_cleared byte 1 run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/clear_block/init
 
 execute if data storage ncrs:workbench/cosmetics_bench validate{block_cleared: true} run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/success
-execute if data storage ncrs:workbench/cosmetics_bench validate{block_cleared: false} run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/failure
+execute unless data storage ncrs:workbench/cosmetics_bench validate{block_cleared: true} run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/failure
 
 execute if items entity @s ncrs:workbench/cosmetics_bench/single_result * run function ncrs:workbench/cosmetics_bench/validate_slots/slot_4/replace_result/iterate

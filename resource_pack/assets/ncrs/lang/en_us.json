@@ -18,5 +18,12 @@
   "item.ncrs.blank_mask.blue": "Blue Blank Mask",
   "item.ncrs.blank_mask.purple": "Purple Blank Mask",
   "item.ncrs.blank_mask.magenta": "Magenta Blank Mask",
-  "item.ncrs.blank_mask.pink": "Pink Blank Mask"
+  "item.ncrs.blank_mask.pink": "Pink Blank Mask",
+  "item.ncrs.api.cosmetic.applied_cosmetic": "Applied Cosmetic:",
+  "item.ncrs.api.cosmetic.prefix": "✨",
+  "item.ncrs.api.modifier.applied_modifiers": "Applied Modifiers:",
+  "item.ncrs.api.modifier.prefix": "🔧",
+  "item.ncrs.modifier.glint_disabled": "Disabled Enchantment Glint",
+  "item.ncrs.modifier.glint_enabled": "Added Enchantment Glint",
+  "block.ncrs.workbench.cosmetics_bench": "Cosmetics Table"
 }

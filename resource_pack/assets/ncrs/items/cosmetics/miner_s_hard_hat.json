@@ -7,8 +7,21 @@
         "model": "ncrs:item/cosmetics/miner_s_hard_hat"
       },
       {
-        "type": "minecraft:model",
-        "model": "ncrs:item/api/cosmetic/common"
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "ncrs:api/cosmetic",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ncrs:item/api/cosmetic/common"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
       }
     ]
   }

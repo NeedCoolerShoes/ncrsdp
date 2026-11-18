@@ -14,9 +14,12 @@
                 "minecraft:custom_data": {
                   "ncrs": {
                     "cosmetic": {
+                      "name": "Poo Poo Pee Pee",
                       "supports": ["head", "chest"],
+                      "rarity": "common",
                       "model": {
-                        "id": "ncrs:cosmetics/miner_s_hard_hat"
+                        "id": "ncrs:cosmetics/miner_s_hard_hat",
+                        "override_equipment": true
                       }
                     }
                   }
@@ -24,6 +27,9 @@
                 "minecraft:item_name": {
                   "text": "Miner's Hard Hat",
                   "italic": false
+                },
+                "minecraft:custom_model_data": {
+                  "strings": ["ncrs:api/cosmetic"]
                 }
               }
             }

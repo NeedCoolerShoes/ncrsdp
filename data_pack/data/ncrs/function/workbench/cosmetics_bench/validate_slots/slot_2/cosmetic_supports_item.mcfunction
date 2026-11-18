@@ -1,7 +1,6 @@
 execute if items block ~ ~ ~ container.2 *[custom_data~{ncrs: {cosmetic: {}}}] run return fail
-execute if items block ~ ~ ~ container.2 *[custom_data~{ncrs: {applied_cosmetic: {}}}] run return fail
 
-execute unless data storage ncrs:workbench/cosmetics_bench block.cosmetic.supports run return 1
+execute unless data storage ncrs:workbench/cosmetics_bench block.cosmetic.supports[] run return 1
 
 execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: ["head"]} run return run function ncrs:workbench/cosmetics_bench/validate_slots/slot_2/check_type/head
 execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic{supports: ["chest"]} run return run function ncrs:workbench/cosmetics_bench/validate_slots/slot_2/check_type/chest

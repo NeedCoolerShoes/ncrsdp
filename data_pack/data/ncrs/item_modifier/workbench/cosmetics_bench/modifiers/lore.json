@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:set_lore",
+  "lore": [
+    {
+      "text": "",
+      "font": "ncrs:api/modifier"
+    },
+    {
+      "text": "",
+      "extra": [
+        {
+          "translate": "item.ncrs.api.modifier.applied_modifiers",
+          "fallback": "Applied Modifiers:",
+          "color": "gray",
+          "font": "minecraft:default",
+          "italic": false
+        }
+      ],
+      "font": "ncrs:api/modifier"
+    }
+  ],
+  "mode": "append"
+}
