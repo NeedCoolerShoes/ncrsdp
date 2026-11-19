@@ -1,42 +1,6 @@
 {
-  "type": "minecraft:sequence",
-  "functions": [
-    {
-      "type": "minecraft:set_components",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
-    },
-    {
-      "type": "minecraft:set_lore",
-      "entity": "this",
-      "lore": [
-        {
-          "text": "",
-          "extra": [
-            {
-              "text": "",
-              "font": "ncrs:modifier/glint"
-            },
-            {
-              "translate": "item.ncrs.api.modifier.prefix",
-              "fallback": "🔧",
-              "color": "gold",
-              "font": "minecraft:default",
-              "italic": false,
-              "extra": [
-                " ",
-                {
-                  "translate": "item.ncrs.modifier.glint_enabled",
-                  "fallback": "Added Enchantment Glint"
-                }
-              ]
-            }
-          ],
-          "font": "ncrs:api/modifier"
-        }
-      ],
-      "mode": "append"
-    }
-  ]
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:enchantment_glint_override": true
+  }
 }

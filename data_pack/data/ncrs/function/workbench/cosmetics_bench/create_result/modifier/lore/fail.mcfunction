@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ Items[{Slot: 4b}].components."minecraft:lore"[] run data remove block ~ ~ ~ Items[{Slot: 4b}].components."minecraft:lore"

@@ -25,5 +25,6 @@
   "item.ncrs.api.modifier.prefix": "🔧",
   "item.ncrs.modifier.glint_disabled": "Disabled Enchantment Glint",
   "item.ncrs.modifier.glint_enabled": "Added Enchantment Glint",
+  "item.ncrs.modifier.name_color": "Changed Name Color",
   "block.ncrs.workbench.cosmetics_bench": "Cosmetics Table"
 }

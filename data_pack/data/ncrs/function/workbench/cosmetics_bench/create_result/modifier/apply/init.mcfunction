@@ -1,0 +1,2 @@
+execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic.modifier{id: "ncrs:modifier/glint"} run function ncrs:workbench/cosmetics_bench/create_result/modifier/apply/glint/init
+execute if data storage ncrs:workbench/cosmetics_bench block.cosmetic.modifier{id: "ncrs:modifier/name_color"} run function ncrs:workbench/cosmetics_bench/create_result/modifier/apply/name_color/init
