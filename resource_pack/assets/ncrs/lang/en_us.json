@@ -26,5 +26,7 @@
   "item.ncrs.modifier.glint_disabled": "Disabled Enchantment Glint",
   "item.ncrs.modifier.glint_enabled": "Added Enchantment Glint",
   "item.ncrs.modifier.name_color": "Changed Name Color",
+  "item.ncrs.modifier.id_card": "Added ID",
+  "item.ncrs.modifier.id_card_name": "Property of",
   "block.ncrs.workbench.cosmetics_bench": "Cosmetics Table"
 }

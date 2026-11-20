@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:recovery_compass"
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "ncrs": {
+          "id": "ncrs:id_card",
+          "cosmetic": {
+            "modifier": {
+              "id": "ncrs:modifier/id_card"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "text": "",
+          "italic": false
+        },
+        {
+          "selector": "@s"
+        },
+        "'s ID Card"
+      ]
+    }
+  ]
+}

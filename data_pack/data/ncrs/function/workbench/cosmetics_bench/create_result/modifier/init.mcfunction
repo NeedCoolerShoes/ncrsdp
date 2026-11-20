@@ -1,4 +1,6 @@
 data modify storage ncrs:workbench/cosmetics_bench block.result.item set from block ~ ~ ~ Items[{Slot: 2b}]
+data modify storage ncrs:workbench/cosmetics_bench block.result.cosmetic set from block ~ ~ ~ Items[{Slot: 0b}]
+
 data modify storage ncrs:workbench/cosmetics_bench block.result.item.Slot set value 4b
 function ncrs:workbench/cosmetics_bench/create_result/modifier/set_gui_data
 

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:name_tag",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:item_model": "ncrs:id_card",
+      "minecraft:custom_data": {
+        "ncrs": {
+          "id": "ncrs:blank_id_card"
+        }
+      },
+      "minecraft:item_name": {
+        "text": "ID Card",
+        "italic": false
+      },
+      "minecraft:profile": {
+        "id": [
+          -970441964,
+          902187561,
+          -1809685721,
+          638338588
+        ]
+      }
+    }
+  }
+}

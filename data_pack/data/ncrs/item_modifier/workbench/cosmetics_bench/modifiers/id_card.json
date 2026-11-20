@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "",
+      "extra": [
+        {
+          "translate": "item.ncrs.modifier.id_card_name",
+          "fallback": "Property of",
+          "font": "minecraft:default",
+          "extra": [
+            " ",
+            {
+              "nbt": "block.result.name_text",
+              "storage": "ncrs:workbench/cosmetics_bench",
+              "color": "white",
+              "interpret": true
+            }
+          ],
+          "color": "gold",
+          "italic": false
+        }
+      ],
+      "font": "ncrs:modifier/id_card"
+    }
+  ],
+  "mode": "insert",
+  "offset": 0
+}
