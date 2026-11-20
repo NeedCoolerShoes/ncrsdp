@@ -14,7 +14,6 @@
                 "minecraft:custom_data": {
                   "ncrs": {
                     "cosmetic": {
-                      "name": "Poo Poo Pee Pee",
                       "supports": ["head", "chest"],
                       "rarity": "common",
                       "model": {
