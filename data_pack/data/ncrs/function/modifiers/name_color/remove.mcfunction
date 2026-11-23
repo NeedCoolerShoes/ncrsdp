@@ -1,0 +1,2 @@
+execute if data storage ncrs:api/modifier callback.modifier{had_custom_name: true} run data modify entity @s item.components."minecraft:custom_name" set from storage ncrs:api/modifier callback.original_text
+execute unless data storage ncrs:api/modifier callback.modifier{had_custom_name: true} run data remove entity @s item.components."minecraft:custom_name"

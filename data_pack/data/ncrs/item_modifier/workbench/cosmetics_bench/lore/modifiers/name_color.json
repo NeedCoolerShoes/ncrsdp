@@ -23,8 +23,8 @@
             },
             " ",
             {
-              "nbt": "block.lore.name_color",
-              "storage": "ncrs:workbench/cosmetics_bench",
+              "nbt": "color_text",
+              "storage": "ncrs:modifiers/name_color",
               "interpret": true
             }
           ]

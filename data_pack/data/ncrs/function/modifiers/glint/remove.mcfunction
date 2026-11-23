@@ -1,0 +1,1 @@
+item modify entity @s container.0 ncrs:workbench/cosmetics_bench/modifiers/glint_remove

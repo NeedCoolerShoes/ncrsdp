@@ -1,0 +1,2 @@
+execute if data storage ncrs:api/modifier callback.modifier{type: "disable"} run item modify entity @s container.0 ncrs:workbench/cosmetics_bench/lore/modifiers/glint_disabled
+execute if data storage ncrs:api/modifier callback.modifier{type: "enable"} run item modify entity @s container.0 ncrs:workbench/cosmetics_bench/lore/modifiers/glint_enabled

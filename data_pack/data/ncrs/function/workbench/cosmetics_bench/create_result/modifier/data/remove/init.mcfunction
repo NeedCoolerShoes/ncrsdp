@@ -1,0 +1,2 @@
+function ncrs:workbench/cosmetics_bench/create_result/modifier/data/remove/data.macro with storage ncrs:api/modifier callback.modifier
+function ncrs:workbench/cosmetics_bench/create_result/modifier/data/remove/callback.macro with storage ncrs:api/modifier callback.modifier.callbacks

@@ -17,9 +17,9 @@ execute if block ~ ~-1 ~ hopper run function ncrs:workbench/cosmetics_bench/naug
 execute positioned ~ ~-2 ~ as @e[type=minecraft:hopper_minecart,dy=2] run function ncrs:workbench/cosmetics_bench/naughty/delete_hopper_minecart
 
 function ncrs:workbench/cosmetics_bench/validate_slots/init
+function ncrs:workbench/cosmetics_bench/update_gui/init
 
 execute if score $skip_updates ncrs.workbench.cosmetics_bench matches 1.. run return -1
 execute unless function ncrs:workbench/cosmetics_bench/inventory_changed run return -1
 
 function ncrs:workbench/cosmetics_bench/create_result/init
-function ncrs:workbench/cosmetics_bench/update_gui/init

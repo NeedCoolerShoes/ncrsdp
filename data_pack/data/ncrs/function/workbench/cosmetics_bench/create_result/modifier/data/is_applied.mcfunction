@@ -1,0 +1,1 @@
+return run function ncrs:workbench/cosmetics_bench/create_result/modifier/data/is_applied.macro with storage ncrs:api/modifier callback.modifier

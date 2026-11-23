@@ -12,7 +12,12 @@
           "id": "ncrs:id_card",
           "cosmetic": {
             "modifier": {
-              "id": "ncrs:modifier/id_card"
+              "id": "ncrs:modifier/id_card",
+              "callbacks": {
+                "apply": "ncrs:modifiers/id_card/apply",
+                "remove": "ncrs:modifiers/id_card/remove",
+                "lore": "ncrs:modifiers/id_card/lore"
+              }
             }
           }
         }

@@ -12,8 +12,8 @@
           "extra": [
             " ",
             {
-              "nbt": "block.result.name_text",
-              "storage": "ncrs:workbench/cosmetics_bench",
+              "nbt": "name",
+              "storage": "ncrs:modifiers/id_card",
               "color": "white",
               "interpret": true
             }

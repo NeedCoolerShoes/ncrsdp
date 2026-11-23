@@ -16,7 +16,12 @@
                   "ncrs": {
                     "cosmetic": {
                       "modifier": {
-                        "id": "ncrs:modifier/glint"
+                        "id": "ncrs:modifier/glint",
+                        "callbacks": {
+                          "apply": "ncrs:modifiers/glint/apply",
+                          "remove": "ncrs:modifiers/glint/remove",
+                          "lore": "ncrs:modifiers/glint/lore"
+                        }
                       }
                     }
                   }
