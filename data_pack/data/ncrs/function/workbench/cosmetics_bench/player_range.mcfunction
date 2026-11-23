@@ -1,0 +1,1 @@
+execute as @e[type=item_display,distance=..8,tag=ncrs.workbench.cosmetics_bench] run scoreboard players operation @s ncrs.workbench.cosmetics_bench.in_range_at = $world_time ncrs.global

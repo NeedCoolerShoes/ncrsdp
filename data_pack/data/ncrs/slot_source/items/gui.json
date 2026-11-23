@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:filtered",
+  "slot_source": [
+    "ncrs:player_inventory"
+  ],
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": {
+        "ncrs": {
+          "gui": {}
+        }
+      }
+    }
+  }
+}

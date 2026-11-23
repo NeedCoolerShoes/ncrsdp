@@ -1,21 +1,17 @@
 {
-  "type": "filtered",
-  "slot_source": [
+  "type": "minecraft:group",
+  "terms": [
     {
       "type": "minecraft:slot_range",
-      "source": "this",
       "slots": "container.0"
     },
     {
       "type": "minecraft:slot_range",
-      "source": "this",
       "slots": "container.2"
     },
     {
       "type": "minecraft:slot_range",
-      "source": "this",
       "slots": "container.4"
     }
-  ],
-  "item_filter": {}
+  ]
 }

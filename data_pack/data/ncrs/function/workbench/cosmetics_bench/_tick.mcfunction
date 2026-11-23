@@ -1,1 +1,2 @@
+execute as @a at @s run function ncrs:workbench/cosmetics_bench/player_range
 execute as @e[type=item_display,tag=ncrs.workbench.cosmetics_bench] at @s positioned ~ ~-1 ~ run function ncrs:workbench/cosmetics_bench/tick

@@ -1,0 +1,1 @@
+item replace entity @s ncrs:items/gui with air

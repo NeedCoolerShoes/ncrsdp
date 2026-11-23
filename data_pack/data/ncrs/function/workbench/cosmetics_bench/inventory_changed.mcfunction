@@ -1,0 +1,1 @@
+return run data modify entity @s data.items set from block ~ ~ ~ Items
