@@ -29,7 +29,8 @@
                 },
                 "minecraft:custom_model_data": {
                   "strings": ["ncrs:api/cosmetic"]
-                }
+                },
+                "minecraft:tooltip_style": "ncrs:cosmetics/common"
               }
             }
           ]
