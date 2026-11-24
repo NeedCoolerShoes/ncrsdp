@@ -1,4 +1,5 @@
 data modify storage ncrs:blocks place.id set from block ~ ~ ~ components."minecraft:custom_data".ncrs.block.id
+data modify storage ncrs:blocks place.data set from block ~ ~ ~ {}
 
 setblock ~ ~ ~ air
 
