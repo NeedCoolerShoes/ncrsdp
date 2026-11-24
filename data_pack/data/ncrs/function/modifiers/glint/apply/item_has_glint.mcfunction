@@ -1,2 +1,1 @@
-execute if data storage ncrs:api/modifier callback.input.item.components."minecraft:enchantments" run return 1
-return fail
+return run function ncrs:modifiers/glint/apply/item_has_glint.macro with storage ncrs:api/modifier callback.input.item

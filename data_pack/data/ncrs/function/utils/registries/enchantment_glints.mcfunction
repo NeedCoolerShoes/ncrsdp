@@ -1,0 +1,1 @@
+data modify storage ncrs:utils/registries enchantment_glints set value [{id: "minecraft:debug_stick"}, {id: "minecraft:enchanted_book"}, {id: "minecraft:enchanted_golden_apple"}, {id: "minecraft:end_crystal"}, {id: "minecraft:experience_bottle"}, {id: "minecraft:nether_star"}, {id: "minecraft:written_book"}]
