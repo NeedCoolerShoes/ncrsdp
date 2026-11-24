@@ -1,3 +1,4 @@
+$data modify storage ncrs:api/modifier callback.old_modifier set from entity @s item.components."minecraft:custom_data".ncrs.applied_modifiers[{id: "$(id)"}]
 $data remove entity @s item.components."minecraft:custom_data".ncrs.applied_modifiers[{id: "$(id)"}]
 execute if data entity @s item.components."minecraft:custom_data".ncrs.applied_modifiers[] run return -1
 

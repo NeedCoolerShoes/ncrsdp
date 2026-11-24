@@ -6,6 +6,8 @@ data modify storage ncrs:api/modifier callback.modifier.original_text set from s
 execute unless data storage ncrs:api/modifier callback.modifier.original_text run function ncrs:modifiers/name_color/apply/name_from_item
 
 data modify storage ncrs:modifiers/name_color name set value {text: "", color: "", extra: []}
+execute unless data storage ncrs:api/modifier callback.modifier{had_custom_name: true} run data modify storage ncrs:modifiers/name_color name.italic set value false
+
 data modify storage ncrs:modifiers/name_color name.color set from storage ncrs:api/modifier callback.modifier.hex
 data modify storage ncrs:modifiers/name_color name.extra append from storage ncrs:api/modifier callback.modifier.original_text
 
